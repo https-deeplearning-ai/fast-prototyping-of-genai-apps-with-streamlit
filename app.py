@@ -4,6 +4,15 @@ import openai
 import streamlit as st
 
 
+def get_response(user_prompt, efforts, verbosities):
+    response = client.responses.create(
+        model="gpt-5",
+        input=[{"role": "user", "content": user_prompt}],  # Prompt
+        reasoning={"effort": efforts},
+        text={"verbosity": verbosities},
+    )
+    return response
+
 # load environment variables from .env file
 load_dotenv()
 
@@ -21,22 +30,18 @@ efforts = st.radio(
     "Effort:",
     options=["minimal", "low", "medium", "high"],
     captions=["Shorter response", "Short response", "Medium response", "Long response"],
-    index=2,
+    index=1,
 )
 
 verbosities = st.radio(
     "Verbosity:",
     options=["low", "medium", "high"],
     captions=["Low verbosity", "Medium verbosity", "High verbosity"],
-    index=2,
+    index=1,
 )
 
-response = client.responses.create(
-    model="gpt-5",
-    input=[{"role": "user", "content": user_prompt}],  # Prompt
-    reasoning={"effort": efforts},
-    text={"verbosity": verbosities},
-)
+with st.spinner("AI is working..."):
+    response = get_response(user_prompt, efforts, verbosities)
 
 # print the response from OpenAI
 st.write(response.output[1].content[0].text)
