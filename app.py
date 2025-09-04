@@ -13,13 +13,29 @@ client = openai.OpenAI()
 st.title("Hello, GenAI!")
 st.write("This is your first Streamlit app.")
 
+user_prompt = st.text_input(
+    "Enter your prompt:", "Explain generative AI in one sentence."
+)
+
+efforts = st.radio(
+    "Effort:",
+    options=["minimal", "low", "medium", "high"],
+    captions=["Shorter response", "Short response", "Medium response", "Long response"],
+    index=2,
+)
+
+verbosities = st.radio(
+    "Verbosity:",
+    options=["low", "medium", "high"],
+    captions=["Low verbosity", "Medium verbosity", "High verbosity"],
+    index=2,
+)
+
 response = client.responses.create(
-    model="gpt-5-mini",
-    input=[
-        {"role": "user", "content": "Explain generative AI in one sentence."}  # Prompt
-    ],
-    # temperature=0.7,  # A bit of creativity (for gpt-5)
-    # max_output_tokens=100  # Limit response length (for gpt-5)
+    model="gpt-5",
+    input=[{"role": "user", "content": user_prompt}],  # Prompt
+    reasoning={"effort": efforts},
+    text={"verbosity": verbosities},
 )
 
 # print the response from OpenAI
