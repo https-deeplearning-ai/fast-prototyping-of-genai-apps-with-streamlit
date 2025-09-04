@@ -3,6 +3,7 @@ import streamlit as st
 import pandas as pd
 import re
 import os
+import string
 
 
 # Helper function to get dataset path
@@ -12,6 +13,30 @@ def get_dataset_path():
     # Construct the path to the CSV file
     csv_path = os.path.join(current_dir, "..", "..", "data", "customer_reviews.csv")
     return csv_path
+
+def clean_text(text):
+       """
+       Clean text by removing punctuation, converting to lowercase, and stripping whitespace.
+       
+       Args:
+           text (str): Input text to clean
+           
+       Returns:
+           str: Cleaned text
+       """
+       if not isinstance(text, str):
+           return ""
+       
+       # Convert to lowercase
+       text = text.lower()
+       
+       # Remove punctuation
+       text = text.translate(str.maketrans('', '', string.punctuation))
+       
+       # Strip whitespace
+       text = text.strip()
+       
+       return text
 
 
 st.title("Hello, GenAI!")
