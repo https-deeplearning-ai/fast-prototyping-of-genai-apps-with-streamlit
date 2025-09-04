@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import openai
 import streamlit as st
 
-
+@st.cache_data
 def get_response(user_prompt, efforts, verbosities):
     response = client.responses.create(
         model="gpt-5",
