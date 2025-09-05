@@ -62,5 +62,15 @@ with col2:
             st.warning("Please ingest the dataset first.")
 
 if "df" in st.session_state:
+
+    # Product filter dropdown
+    st.subheader("🔍 Filter by Product")
+    product = st.selectbox("Choose a product", ["All Products"] + list(st.session_state["df"]["PRODUCT"].unique()))
+
     st.subheader(f"🗂️ Dataset preview")
-    st.dataframe(st.session_state["df"].head())
+    if product != "All Products":
+        filtered_df = st.session_state["df"][st.session_state["df"]["PRODUCT"] == product]
+    else:
+        filtered_df = st.session_state["df"]
+    
+    st.dataframe(filtered_df.head())
