@@ -9,7 +9,7 @@ In this lab, you'll build a product intelligence dashboard and deploy it on Stre
 3. Click the blue *"+ Streamlit App"* button
 4. Fill out the App location by selecting `AVALANCHE_DB` as the database and `AVALANCHE_SCHEMA` as the schema.
 5. Click on the blue `Create` button.
-6. After a few moments the default app should spin up where you'll find 3 panels (going from left to right): File/Database panel, Code panel and the app preview panel.
+6. After a few moments the default app should spin up where you'll find 3 panels (going from left to right): File/Database panel, Code panel and the App Preview panel.
 
 ## Install Prerequisite Library
 1. Click on *Packages* in the middle Code panel
