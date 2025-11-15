@@ -5,7 +5,7 @@ In this lab, you'll build a product intelligence dashboard and deploy it on Stre
 
 ## Creating the App
 1. Open [Snowsight](https://app.snowflake.com/)
-2. In the sidebar, click on the *"Projects"* button then click on *"Streamlit"* (or click here for a direct link to [Streamlit in Snowflake](https://app.snowflake.com/_deeplink/#/streamlit-apps)) 
+2. In the sidebar, click on the *"Projects"* button then click on *"Streamlit"* (or click on the direct link to [Streamlit in Snowflake](https://app.snowflake.com/_deeplink/#/streamlit-apps)) 
 3. Click the blue *"+ Streamlit App"* button
 4. Fill out the App location by selecting `AVALANCHE_DB` as the database and `AVALANCHE_SCHEMA` as the schema.
 5. Click on the blue `Create` button.
