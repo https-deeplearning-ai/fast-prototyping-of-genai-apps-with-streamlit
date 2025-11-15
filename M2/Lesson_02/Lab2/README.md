@@ -1,5 +1,5 @@
 `Module 2`
-Lab 2: Using GenAI for Sentiment Analysis
+# Lab 2: Using GenAI for Sentiment Analysis
 
 In this lab, you'll deploy your app on Streamlit in Snowflake (SiS).
 
