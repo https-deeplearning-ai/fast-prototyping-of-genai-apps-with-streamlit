@@ -12,4 +12,5 @@
 - To deploy, go to Snowsight's [Streamlit in Snowflake](https://app.snowflake.com/_deeplink/#/streamlit-apps)
 
 ## Deploy to Streamlit Community Cloud
+- In the course, watch the *"Deploying to Streamlit Community Cloud"* video
 - To deploy, go to [Streamlit Community Cloud](https://streamlit.io/cloud)
