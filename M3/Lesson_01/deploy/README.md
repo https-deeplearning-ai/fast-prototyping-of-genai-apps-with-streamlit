@@ -19,4 +19,6 @@
   - Instead of using the actual password for the `password` parameter, it could be replaced by using a [programmatic access tokens (PAT)](https://docs.snowflake.com/en/user-guide/programmatic-access-tokens) for authentication.
     - To ensure that the app can access Snowflake the [network policy](https://docs.snowflake.com/en/user-guide/programmatic-access-tokens#network-policy-requirements) should be in place.
     - To do this, in Snowsight, click on your image profile in the lower left corner, then click on *"Settings"*
-    - A new page appears, click on the *"Authentication"* tab, then in the *"Programmatic access tokens"* section, click on "Generate new token".
+    - A new page appears, click on the *"Authentication"* tab, then in the *"Programmatic access tokens"* section, click on "Generate new token"
+    - Once the token has been generated, find the three dots, click on it, then click on *"Bypass requirements for network policy"*
+    - Specify the duration and click on the blue "Grant access" button.
