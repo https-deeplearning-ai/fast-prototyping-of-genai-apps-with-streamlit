@@ -1,15 +1,21 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-
-# This does not work outside Snowflake, so you have to use SQL instead.
+## Use this for Streamlit in Snowflake deployment
+# from snowflake.snowpark.context import get_active_session
 # from snowflake.cortex import complete
 
-# Initialize the Streamlit app
 st.title("Avalanche Streamlit App")
 
-# Get data from Snowflake. This is instead of using get_active_session
+# Establish Snowflake session
+
+## Use this for Streamlit in Snowflake deployment
+# session = get_active_session()
+
+## Use this for Streamlit Community Cloud deployment
 session = st.connection("snowflake").session()
+
+# Load customer review data with sentiment
 query = """
 SELECT
     *
@@ -43,7 +49,6 @@ if product != "All Products":
 else:
     filtered_data = df_reviews
 
-
 # Display the filtered data as a table
 st.subheader(f"📁 Reviews for {product}")
 st.dataframe(filtered_data)
@@ -62,8 +67,12 @@ st.subheader("Ask Questions About Your Data")
 user_question = st.text_input("Enter your question here:")
 
 if user_question:
-    # The cortex complete does not work outside Snowflake
+    prompt = f'Answer this question using the dataset: {user_question} <context>{df_string}</context>'
+   
+    ## Use this for Streamlit in Snowflake deployment
     # response = complete(model="claude-3-5-sonnet", prompt=f"Answer this question using the dataset: {user_question} <context>{df_string}</context>", session=session)
-    # Use SQL instead:
-    response = session.sql(f"SELECT SNOWFLAKE.CORTEX.COMPLETE('claude-3-5-sonnet', '{user_question}');").collect()[0][0]
+
+    ## Use this for Streamlit Community Cloud deployment
+    response = session.sql(f"SELECT SNOWFLAKE.CORTEX.COMPLETE('claude-3-5-sonnet', $${prompt}$$)").collect()[0][0]
+    
     st.write(response)
