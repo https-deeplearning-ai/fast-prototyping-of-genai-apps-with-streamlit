@@ -8,6 +8,7 @@
   2. Deploy to Streamlit Community Cloud
 
 ## Deploying to Streamlit in Snowflake
+- In the course watch the *"Deploying Your Prototype Internally on Snowflake"* video
 - Follow step-by-step instructions in [Module 2 Lab 2](https://github.com/https-deeplearning-ai/fast-prototyping-of-genai-apps-with-streamlit/tree/main/M2/Lesson_02/Lab2)
 - To deploy, go to Snowsight's [Streamlit in Snowflake](https://app.snowflake.com/_deeplink/#/streamlit-apps)
 
