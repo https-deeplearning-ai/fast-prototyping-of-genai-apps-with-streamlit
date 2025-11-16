@@ -16,3 +16,4 @@
 - In the course, watch the *"Deploying to Streamlit Community Cloud"* video and also "Connecting Streamlit Community Cloud to Snowflake" video
 - To deploy, go to [Streamlit Community Cloud](https://streamlit.io/cloud)
 - Once the app is deployed, make sure to add the proper secrets information to connect to Snowflake as mentioned in the first bullet point. This is provided in this repo at [`.streamlit/secrets.toml`](.streamlit/secrets.toml)
+  - Instead of using the actual password for the `password` parameter, it could be replaced by using a [programmatic access tokens (PAT)](https://docs.snowflake.com/en/user-guide/programmatic-access-tokens) for authentication.
