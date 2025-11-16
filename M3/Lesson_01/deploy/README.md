@@ -17,3 +17,6 @@
 - To deploy, go to [Streamlit Community Cloud](https://streamlit.io/cloud)
 - Once the app is deployed, make sure to add the proper secrets information to connect to Snowflake as mentioned in the first bullet point. This is provided in this repo at [`.streamlit/secrets.toml`](.streamlit/secrets.toml)
   - Instead of using the actual password for the `password` parameter, it could be replaced by using a [programmatic access tokens (PAT)](https://docs.snowflake.com/en/user-guide/programmatic-access-tokens) for authentication.
+    - To ensure that the app can access Snowflake the [network policy](https://docs.snowflake.com/en/user-guide/programmatic-access-tokens#network-policy-requirements) should be in place.
+    - To do this, in Snowsight, click on your image profile in the lower left corner, then click on *"Settings"*
+    - A new page appears, click on the *"Authentication"* tab, then in the *"Programmatic access tokens"* section, click on "Generate new token".
