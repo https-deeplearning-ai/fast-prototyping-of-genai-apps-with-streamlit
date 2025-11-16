@@ -15,7 +15,10 @@
 ## Deploy to Streamlit Community Cloud
 - In the course, watch the *"Deploying to Streamlit Community Cloud"* video and also "Connecting Streamlit Community Cloud to Snowflake" video
 - To deploy, go to [Streamlit Community Cloud](https://streamlit.io/cloud)
-- Once the app is deployed, make sure to add the proper secrets information to connect to Snowflake as mentioned in the first bullet point. This is provided in this repo at [`.streamlit/secrets.toml`](.streamlit/secrets.toml)
+- Once logged in, click on *"Create app"* in the top-right hand corner
+- Click on *"Deploy a public app from GitHub"*
+- Select the repo, branch, main file path, adjust the app URL (if needed)
+- Once the app is deployed, make sure to add the proper secrets information to connect to Snowflake as mentioned in the first bullet point. This is provided in this repo at [`.streamlit/secrets.toml`](.streamlit/secrets.toml). On a deployed app, click on the "Manage app" button on the bottom-right hand corner.
   - Instead of using the actual password for the `password` parameter, it could be replaced by using a [programmatic access tokens (PAT)](https://docs.snowflake.com/en/user-guide/programmatic-access-tokens) for authentication.
     - To ensure that the app can access Snowflake the [network policy](https://docs.snowflake.com/en/user-guide/programmatic-access-tokens#network-policy-requirements) should be in place.
     - To do this, in Snowsight, click on your image profile in the lower left corner, then click on *"Settings"*
