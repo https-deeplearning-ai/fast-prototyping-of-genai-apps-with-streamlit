@@ -13,5 +13,6 @@
 - To deploy, go to Snowsight's [Streamlit in Snowflake](https://app.snowflake.com/_deeplink/#/streamlit-apps)
 
 ## Deploy to Streamlit Community Cloud
-- In the course, watch the *"Deploying to Streamlit Community Cloud"* video
+- In the course, watch the *"Deploying to Streamlit Community Cloud"* video and also "Connecting Streamlit Community Cloud to Snowflake" video
 - To deploy, go to [Streamlit Community Cloud](https://streamlit.io/cloud)
+- Once the app is deployed, make sure to add the proper secrets information to connect to Snowflake as mentioned in the first bullet point. This is provided in this repo at [`.streamlit/secrets.toml`](.streamlit/secrets.toml)
