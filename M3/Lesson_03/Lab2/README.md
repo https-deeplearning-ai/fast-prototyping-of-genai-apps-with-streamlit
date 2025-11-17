@@ -9,7 +9,12 @@
 - You can copy/paste contents from the app and environment.yml files in this repo into the ones in Snowflake found at the left File panel
 
 <p align="center">
-  <img src="assets/deploy-to-streamlit-in-snowflake.png" width="70%">
+  <table>
+    <tr>
+      <td><img src="assets/deploy-to-streamlit-in-snowflake.png" width="100%"></td>
+      <td><img src="assets/deploy-to-streamlit-in-snowflake-2.png" width="100%"></td>
+    </tr>
+  </table>
 </p>
 
 ## Deploy to Streamlit Community Cloud
