@@ -17,5 +17,12 @@
   </table>
 </p>
 
+**Further instructions on deployment:**
+- In the course watch the *"Deploying Your Prototype Internally on Snowflake"* video.
+- Follow step-by-step instructions in [Module 2 Lab 2](https://github.com/https-deeplearning-ai/fast-prototyping-of-genai-apps-with-streamlit/tree/main/M2/Lesson_02/Lab2).
+
 ## Deploy to Streamlit Community Cloud
 - For app deployment use either of these as the app file ([`M3Lab2.py`](M3Lab2.py), [`example_chatbot_with_history.py`](example_chatbot_with_history.py) and [`example_tabs.py`](example_tabs.py)) along with [`requirements.txt`](requirements.txt).
+
+**Further instructions on deployment:**
+- Follow step-by-step instructions in [Module 3 Lab 1](https://github.com/https-deeplearning-ai/fast-prototyping-of-genai-apps-with-streamlit/tree/main/M3/Lesson_01/deploy).
