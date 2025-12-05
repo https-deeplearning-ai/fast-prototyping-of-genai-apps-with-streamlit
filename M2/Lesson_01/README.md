@@ -4,5 +4,5 @@
 - Download [M2L1V4.ipynb](https://github.com/dataprofessor/fast-prototyping-of-genai-apps-with-streamlit/blob/main/M2/Lesson_01/M2L1V4.ipynb) locally and import it into Snowsight as a Snowflake Notebook. During the notebook setup process, specify the `avalanche_db` database and `avalanche_schema` schema as the location where the notebook will reside under the **Notebook location** field of the **Create notebook** modal.
   
 <p align="center">
-  <img src="assets/M2L1V4.png" width="500">
+  <img src="assets/create-notebook-modal.png" width="500">
 </p>
