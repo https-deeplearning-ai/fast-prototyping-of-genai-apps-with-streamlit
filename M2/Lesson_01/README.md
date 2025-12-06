@@ -7,6 +7,6 @@
 <p align="center">
   <img src="assets/create-notebook-modal.png" width="500">
 </p>
-3. Run the [`M2L1V5.ipynb`](https://github.com/dataprofessor/fast-prototyping-of-genai-apps-with-streamlit/blob/main/M2/Lesson_01/M2L1V5.ipynb) notebook to follow along with the *Uploading a Batch of Files* video lesson on Coursera.
-4. Run the [`M2L1V6.ipynb`](https://github.com/dataprofessor/fast-prototyping-of-genai-apps-with-streamlit/blob/main/M2/Lesson_01/M2L1V6.ipynb) notebook to follow along with the *From Stage to Table with Cortex* video lesson on Coursera.
-5. Run the [`M2L1V7.ipynb`](https://github.com/dataprofessor/fast-prototyping-of-genai-apps-with-streamlit/blob/main/M2/Lesson_01/M2L1V7.ipynb) notebook to follow along with the *Extracting Information from the Content* video lesson on Coursera.
+3. Run the [M2L1V5.ipynb](https://github.com/dataprofessor/fast-prototyping-of-genai-apps-with-streamlit/blob/main/M2/Lesson_01/M2L1V5.ipynb) notebook to follow along with the *Uploading a Batch of Files* video lesson on Coursera.
+4. Run the [M2L1V6.ipynb](https://github.com/dataprofessor/fast-prototyping-of-genai-apps-with-streamlit/blob/main/M2/Lesson_01/M2L1V6.ipynb) notebook to follow along with the *From Stage to Table with Cortex* video lesson on Coursera.
+5. Run the [M2L1V7.ipynb](https://github.com/dataprofessor/fast-prototyping-of-genai-apps-with-streamlit/blob/main/M2/Lesson_01/M2L1V7.ipynb) notebook to follow along with the *Extracting Information from the Content* video lesson on Coursera.
