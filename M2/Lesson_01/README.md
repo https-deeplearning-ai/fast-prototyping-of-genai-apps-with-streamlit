@@ -1,4 +1,4 @@
-# Module 2 Lesson 1
+# Module 2 Lesson 1: Building Prototypes in Snowflake
 1. Please run the `sql` and `ipynb` files in the chronological sequence mentioned since subsequent notebooks require assets created from previous steps. You'll also notice that the notebook header cell contains the name of the corresponding video lesson on Coursera to make it easier to follow along with the videos.
 2. After watching the ***Snowsight Development Environment*** video lesson on Coursera, make sure to run the contents of [M2L1V3.sql](M2L1V3.sql) in a SQL worksheet in your Snowflake Snowsight workspace. This would allow you to create the `avalanche_db` database and `avalanche_schema` schema, which you'll need for running the next lesson.
 3. Run the `M2L1V4.ipynb` notebook to follow along with the ***From CSV to Cloud – Using Notebooks to Ingest Avalanche Data*** video lesson on Coursera.
