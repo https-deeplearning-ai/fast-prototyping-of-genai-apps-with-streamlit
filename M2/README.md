@@ -17,14 +17,14 @@ For your convenience, here's a summary table of the notebooks mapped to its corr
 | [M2L1V7.ipynb](Lesson_01/M2L1V7.ipynb) | Extracting Information from the Content |
 
 ### Getting started
-1. After watching the ***Snowsight Development Environment*** video lesson on Coursera, make sure to run the contents of [M2L1V3.sql](M2L1V3.sql) in a SQL worksheet in your Snowflake Snowsight workspace. This would allow you to create the `avalanche_db` database and `avalanche_schema` schema, which you'll need for running the next lesson.
+1. After watching the ***Snowsight Development Environment*** video lesson on Coursera, make sure to run the contents of [M2L1V3.sql](Lesson_01/M2L1V3.sql) in a SQL worksheet in your Snowflake Snowsight workspace. This would allow you to create the `avalanche_db` database and `avalanche_schema` schema, which you'll need for running the next lesson.
 2. Run the `M2L1V4.ipynb` notebook to follow along with the ***From CSV to Cloud – Using Notebooks to Ingest Avalanche Data*** video lesson on Coursera.
-   - Download [M2L1V4.ipynb](M2L1V4.ipynb) locally and import it into Snowsight as a Snowflake Notebook.
+   - Download [M2L1V4.ipynb](Lesson_01/M2L1V4.ipynb) locally and import it into Snowsight as a Snowflake Notebook.
    - During the notebook setup process, specify the `avalanche_db` database and `avalanche_schema` schema as the location where the notebook will reside under the **Notebook location** field of the **Create notebook** modal.
    - Leaving everything else at default, finally click on the **Create** button.
 
 <p align="center">
-  <img src="assets/create-notebook-modal.png" width="500">
+  <img src="Lesson_01/assets/create-notebook-modal.png" width="500">
 </p>
 
 ## Lesson 2: Data Analysis with Snowflake and GenAI
