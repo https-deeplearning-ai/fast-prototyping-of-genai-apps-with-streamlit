@@ -1,7 +1,7 @@
 # Module 3
 
 ## Lesson 1: Deploying your Prototype
-| Lab | Title |
+| Lab | Video Title |
 |-----|-------|
 | [Lab1](Lab1) | Deploying Your Prototype |
 
