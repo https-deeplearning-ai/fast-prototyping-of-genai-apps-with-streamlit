@@ -12,4 +12,4 @@
 3. Run the [M2L1V5.ipynb](M2L1V5.ipynb) notebook to follow along with the ***Uploading a Batch of Files*** video lesson on Coursera.
 4. Run the [M2L1V6.ipynb](M2L1V6.ipynb) notebook to follow along with the ***From Stage to Table with Cortex*** video lesson on Coursera.
 5. Run the [M2L1V7.ipynb](M2L1V7.ipynb) notebook to follow along with the ***Extracting Information from the Content*** video lesson on Coursera.
-6. Proceed to [Lab1][Lab1]
+6. Proceed to [Lab1](Lab1)
