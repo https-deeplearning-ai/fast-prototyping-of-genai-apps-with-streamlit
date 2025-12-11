@@ -2,7 +2,7 @@
 
 ## Lesson 1: Introduction to Prototyping for Generative AI Apps
 
-| File | Title |
+| File | Video Title |
 |------|-------|
 | [Lesson_01/Lab1](Lesson_01/Lab1) | Lab 1: Co-creating an MVP Plan with GenAI |
 
