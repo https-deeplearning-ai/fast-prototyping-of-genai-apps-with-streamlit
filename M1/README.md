@@ -1,4 +1,4 @@
-# Module 1: Introduction to Prototyping Generative AI Applications
+# Module 1
 
 ## Lesson 1: Introduction to Prototyping for Generative AI Apps
 
