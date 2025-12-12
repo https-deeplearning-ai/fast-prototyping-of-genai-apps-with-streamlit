@@ -15,6 +15,7 @@ For your convenience, here's a summary table of the notebooks mapped to its corr
 | [M2L1V5.ipynb](Lesson_01/M2L1V5.ipynb) | Uploading a Batch of Files |
 | [M2L1V6.ipynb](Lesson_01/M2L1V6.ipynb) | From Stage to Table with Cortex |
 | [M2L1V7.ipynb](Lesson_01/M2L1V7.ipynb) | Extracting Information from the Content |
+| [Lab1](Lesson_01/Lab1) | Lab 1: Avalanche Shipping Analytics |
 
 ### Getting started
 1. After watching the ***Snowsight Development Environment*** video lesson on Coursera, make sure to run the contents of [M2L1V3.sql](Lesson_01/M2L1V3.sql) in a SQL worksheet in your Snowflake Snowsight workspace. This would allow you to create the `avalanche_db` database and `avalanche_schema` schema, which you'll need for running the next lesson.
