@@ -18,6 +18,7 @@ In this lab, you'll build a product intelligence dashboard and deploy it on Stre
    - `matplotlib`
    - `pandas`
    - `snowflake-ml-python`
+
 If you're seeing an error due to library dependency error, then copy the contents of [environment.yml](environment.yml) and paste it into the `environment.yml` file in Snowsight as shown in the following screenshot.
 4. Click on the *"Save"* button.
 
