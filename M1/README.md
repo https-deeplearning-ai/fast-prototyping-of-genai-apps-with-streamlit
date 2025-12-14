@@ -4,7 +4,7 @@
 
 | File | Video Title |
 |------|-------|
-| [Lesson_01/Lab1](Lesson_01/Lab1) | Lab 1: Co-creating an MVP Plan with GenAI |
+| [Lab1](Lesson_01/Lab1) | Lab 1: Co-creating an MVP Plan with GenAI |
 
 ## Lesson 2: Getting Started with Web App Frameworks
 
@@ -23,3 +23,4 @@
 | [M1L3V2_matplotlib.py](Lesson_03/M1L3V2_matplotlib.py) | Data Visualization |
 | [M1L3V2_plotly.py](Lesson_03/M1L3V2_plotly.py) | Data Visualization |
 | [M1L3V2_streamlit_plot.py](Lesson_03/M1L3V2_streamlit_plot.py) | Data Visualization |
+| [Lab2](Lesson_03/Lab2) | Lab 2: Avalanche Sentiment Analysis Dashboard with GenAI |
