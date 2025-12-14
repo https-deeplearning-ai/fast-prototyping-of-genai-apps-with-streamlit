@@ -3,8 +3,15 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import json
 from snowflake.core import Root
-from snowflake.snowpark.context import get_active_session
+## Use this for Streamlit in Snowflake deployment
+# from snowflake.snowpark.context import get_active_session
 
+# Establish Snowflake session
+
+## Use this for Streamlit in Snowflake deployment
+# session = get_active_session()
+
+## Use this for Streamlit Community Cloud deployment
 session = st.connection("snowflake").session()
 
 # Create tabs
