@@ -6,7 +6,7 @@
 
 ## Deploy to Streamlit in Snowflake
 - For app deployment use either of these as the app file ([`M3Lab2.py`](M3Lab2.py), [`example_chatbot_with_history.py`](example_chatbot_with_history.py) and [`example_tabs.py`](example_tabs.py)) along with [`environment.yml`](environment.yml).
-- You can copy/paste contents from the app file and `environment.yml` file in this repo into the ones in Snowflake found at the left File panel
+- You can copy/paste contents from the app file and `environment.yml` file in this repo into the ones in Snowflake found at the left File panel. This should also fix library dependency error (note that the library versions are unpinned meaning that no specific version are specified for the libraries so that they don't run into library dependency error).
 
 <p align="center">
   <table>
