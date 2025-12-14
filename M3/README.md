@@ -10,6 +10,6 @@
 
 | Notebook | Video Title |
 |----------|-------------|
-| [M3L3V2.ipynb](M3L3V2.ipynb) | Upgrading Your Prototype with Prompt Augmentation |
-| [M3L3V4.ipynb](M3L3V4.ipynb) | Setting up a RAG pipeline using Cortex Search |
+| [M3L3V2.ipynb](Lesson_03/M3L3V2.ipynb) | Upgrading Your Prototype with Prompt Augmentation |
+| [M3L3V4.ipynb](Lesson_03/M3L3V4.ipynb) | Setting up a RAG pipeline using Cortex Search |
 | [Lab2](Lesson_03/Lab2) | Lab 2: Integrating RAG into your chatbot |
